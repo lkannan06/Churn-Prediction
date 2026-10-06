@@ -1,0 +1,299 @@
+{
+  "ref_date": "2026-07-25",
+  "engagement_max": {
+    "Usage_Frequency": 40.0,
+    "Feature_Usage_Count": 21.0,
+    "Avg_Session_Duration_Min": 41.19592456925355,
+    "Email_Open_Rate_Pct": 99.9
+  },
+  "inactive_median": 94.0,
+  "model_columns": [
+    "Age",
+    "Gender",
+    "City",
+    "Income_Level",
+    "Tenure_Months",
+    "Contract_Type",
+    "Plan_Type",
+    "Payment_Method",
+    "Auto_Renewal_Flag",
+    "Usage_Frequency",
+    "Days_Since_Last_Activity",
+    "Feature_Usage_Count",
+    "Avg_Session_Duration_Min",
+    "Monthly_Charges",
+    "Total_Charges",
+    "Discount_Applied_Pct",
+    "Late_Payment_Count",
+    "Support_Tickets_Raised",
+    "Complaint_Count",
+    "Avg_Resolution_Time_Hrs",
+    "Satisfaction_Score",
+    "Referral_Count",
+    "Loyalty_Program_Member",
+    "Upsell_Downgrade_History",
+    "Email_Open_Rate_Pct",
+    "Days_Since_Signup",
+    "Avg_Monthly_Spend",
+    "Billing_Discrepancy",
+    "CLV_Proxy",
+    "Engagement_Score",
+    "Is_Inactive",
+    "Complaint_Rate",
+    "Late_Payment_Rate",
+    "Support_Burden",
+    "Resolution_Efficiency",
+    "Satisfaction_Support_Ratio",
+    "Loyalty_Tenure",
+    "Has_Referral",
+    "Discount_Flag",
+    "Tenure_Group",
+    "Satisfaction_Group"
+  ],
+  "days_since_signup": {
+    "max": 2171,
+    "default": 1047
+  },
+  "raw_num": {
+    "Age": {
+      "min": 18.0,
+      "max": 70.0,
+      "default": 44.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Tenure_Months": {
+      "min": 1.0,
+      "max": 72.0,
+      "default": 35.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Auto_Renewal_Flag": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 1.0,
+      "is_int": true,
+      "binary": true
+    },
+    "Usage_Frequency": {
+      "min": 0.0,
+      "max": 40.0,
+      "default": 14.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Days_Since_Last_Activity": {
+      "min": 0.0,
+      "max": 188.0,
+      "default": 94.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Feature_Usage_Count": {
+      "min": 0.0,
+      "max": 21.0,
+      "default": 10.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Avg_Session_Duration_Min": {
+      "min": 1.0,
+      "max": 41.19592456925355,
+      "default": 11.7,
+      "is_int": false,
+      "binary": false
+    },
+    "Monthly_Charges": {
+      "min": 202.64,
+      "max": 2996.614645346135,
+      "default": 1571.7945871339912,
+      "is_int": false,
+      "binary": false
+    },
+    "Total_Charges": {
+      "min": 234.7669667952622,
+      "max": 215756.2544649217,
+      "default": 43321.24969838456,
+      "is_int": false,
+      "binary": false
+    },
+    "Discount_Applied_Pct": {
+      "min": 0.0,
+      "max": 24.0,
+      "default": 7.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Late_Payment_Count": {
+      "min": 0.0,
+      "max": 6.0,
+      "default": 1.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Support_Tickets_Raised": {
+      "min": 0.0,
+      "max": 8.0,
+      "default": 1.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Complaint_Count": {
+      "min": 0.0,
+      "max": 4.0,
+      "default": 0.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Avg_Resolution_Time_Hrs": {
+      "min": 0.0,
+      "max": 75.19452816102297,
+      "default": 27.1552070020806,
+      "is_int": false,
+      "binary": false
+    },
+    "Satisfaction_Score": {
+      "min": 1.0,
+      "max": 10.0,
+      "default": 5.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Referral_Count": {
+      "min": 0.0,
+      "max": 4.0,
+      "default": 0.0,
+      "is_int": true,
+      "binary": false
+    },
+    "Loyalty_Program_Member": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "is_int": true,
+      "binary": true
+    },
+    "Email_Open_Rate_Pct": {
+      "min": 0.1,
+      "max": 99.9,
+      "default": 50.27756212992427,
+      "is_int": false,
+      "binary": false
+    }
+  },
+  "raw_cat": {
+    "Gender": {
+      "options": [
+        "Female",
+        "Male",
+        "Other"
+      ],
+      "default": "Other"
+    },
+    "City": {
+      "options": [
+        "Bengaluru",
+        "Chennai",
+        "Delhi",
+        "Hyderabad",
+        "Kolkata",
+        "Mumbai",
+        "Pune"
+      ],
+      "default": "Bengaluru"
+    },
+    "Income_Level": {
+      "options": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "default": "Low"
+    },
+    "Contract_Type": {
+      "options": [
+        "Annual",
+        "Monthly",
+        "Prepaid"
+      ],
+      "default": "Monthly"
+    },
+    "Plan_Type": {
+      "options": [
+        "Basic",
+        "Premium",
+        "Standard"
+      ],
+      "default": "Standard"
+    },
+    "Payment_Method": {
+      "options": [
+        "Credit Card",
+        "Debit Card",
+        "Net Banking",
+        "UPI",
+        "Wallet"
+      ],
+      "default": "Debit Card"
+    },
+    "Upsell_Downgrade_History": {
+      "options": [
+        "Downgraded",
+        "No History",
+        "Upgraded"
+      ],
+      "default": "No History"
+    }
+  },
+  "metrics": {
+    "accuracy": 0.9270186335403726,
+    "precision": 0.7345132743362832,
+    "recall": 0.7980769230769231,
+    "f1": 0.7649769585253456,
+    "roc_auc": 0.9648860398860399,
+    "pr_auc": 0.8605561159952084
+  },
+  "top_features": [
+    [
+      "Complaint_Count",
+      0.37488120794296265
+    ],
+    [
+      "Complaint_Rate",
+      0.05538874864578247
+    ],
+    [
+      "Billing_Discrepancy",
+      0.042278654873371124
+    ],
+    [
+      "Late_Payment_Count",
+      0.03760500252246857
+    ],
+    [
+      "Loyalty_Tenure",
+      0.02745995484292507
+    ],
+    [
+      "Support_Burden",
+      0.020219800993800163
+    ],
+    [
+      "Loyalty_Program_Member",
+      0.017215019091963768
+    ],
+    [
+      "Late_Payment_Rate",
+      0.015207402408123016
+    ],
+    [
+      "Is_Inactive",
+      0.014512614347040653
+    ],
+    [
+      "Satisfaction_Group_Low",
+      0.013891203328967094
+    ]
+  ]
+}
